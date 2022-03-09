@@ -8,5 +8,5 @@ En el podemos encontrar entre otras cosas:
 - Proyecto de la base de datos (.pdf)
 
 El documento PDF explica desde instalaciones, conexiones con máquinas externas a diferentes gestores de bases de datos,  uso de los scripts hacia la base de datos...
-![Esta es una imagen](https://raw.githubusercontent.com/imgzlou/mli/master/EstacionMonta%C3%B1aSQL/modelado/Logical.png)
+
 
