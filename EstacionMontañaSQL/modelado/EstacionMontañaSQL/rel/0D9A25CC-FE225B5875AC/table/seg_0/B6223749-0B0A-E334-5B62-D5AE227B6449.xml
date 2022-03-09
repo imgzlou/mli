@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6223749-0B0A-E334-5B62-D5AE227B6449" name="material">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>C4854C37-F5D7-BB27-03BF-4B9D216FF626</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_material" id="D5632B2A-322D-47FA-0537-24AF7075CAFD">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>78893DB7-02BC-6980-DC1A-FA6D6CBDF8CF</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modalidad" id="8334D188-7072-3A64-4F59-DAD15FE1AD38">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>7A637E74-2463-70C6-B037-15A78E330A2D</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="E2727E8B-17C0-FF32-F72A-72E691F5F1F4">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>0C4A6943-5ED3-92C6-24CC-36E9CB7A0C1A</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_material" id="D1C7B8C4-7763-9611-DB12-53A1C6927248">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>383212D3-90F2-D56E-6854-CD50B54C6099</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="628D8991-E7E6-BB40-083F-A184B6966116">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>41392499-777B-6F59-4C5F-FC60825FEEF2</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tienda_id_personal" id="4B3B7D5F-48B9-A35C-C0A3-2A4F5A33B72C">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>C1DD8BEE-E982-BA26-163A-E7B32EFBD910</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2693B14-DAB5-0D2D-A476-22B1448D26FA" referredColumn="F7DFE534-7AED-4644-8811-509C7AEB1082"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFA32281-B735-7506-E6A5-8A33C0E833B7" name="material_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>568BA4AD-0931-F234-FDE7-07BBD7BE2609</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5632B2A-322D-47FA-0537-24AF7075CAFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65E6655F-35B7-20A2-B440-95033E74B035" name="material_tienda_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>B698EA39-6EFA-9B90-AE63-B8DF50BC05BD</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B3B7D5F-48B9-A35C-C0A3-2A4F5A33B72C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

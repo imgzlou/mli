@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96B0EC16-0C45-4BEA-6EE3-EDA465B7A866" name="datos_cliente">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:49:18 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dni_cliente" id="5968B291-610F-97CA-410D-BB026EBB93BE">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:49:24 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F84A2726-14DD-AD65-F7D4-51D0187E5ED4" name="datos_cliente PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:49:40 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5968B291-610F-97CA-410D-BB026EBB93BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

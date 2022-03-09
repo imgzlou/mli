@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4783964F-D043-8695-6B97-D73430448FA2" name="actividad">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>56110AD1-4700-6429-A9BE-58D3C097EAA8</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_actividad" id="0D9F61CF-AF8F-947D-1F61-8C3407DD93D7">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>504823C4-6D5F-4351-72EB-EF3BB0A9DCFD</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_actividad" id="38887C68-177A-F365-85A5-578674F72046">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>9DB5EE8B-3B73-22F9-3D0D-FA22FA32151C</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario_inicio" id="6F941388-4FC0-19B2-BBA5-1BB17E0486FF">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>CE66ECBB-7796-A342-2E55-B127EFF00A0A</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion_actividad" id="B86D28A2-0F43-AFE3-8F8A-CF00B282E18F">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>E7219FDC-4EE5-4390-70C6-58A1A37DA6AB</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sitio_realizamiento" id="8D31E364-2923-7941-BCDD-4D92D43570C6">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>4C4CDC80-84B0-6567-531C-40D4FF45E939</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monitor_personal_estacion_id_personal" id="B0B62EC2-596E-C9FE-67F8-3B7285CE7504">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>09930706-2AA5-CF5C-7D89-08A964323656</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C89DF01-3CCA-ED58-E13E-DAE64EE69F96" referredColumn="50B4C657-4146-2F34-5BE6-11DF001284DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8F6D542-BFDC-16FB-9707-0748906D34F0" name="actividad_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>820FA754-7505-EDE4-829B-E585653E4202</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D9F61CF-AF8F-947D-1F61-8C3407DD93D7"/>
+<colUsage columnID="B0B62EC2-596E-C9FE-67F8-3B7285CE7504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED685B54-6961-F1DC-3F6F-DFCF43E7E641" name="actividad_monitor_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>420DA8A5-87E8-C8D0-B90F-AD442735E45C</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0B62EC2-596E-C9FE-67F8-3B7285CE7504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

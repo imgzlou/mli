@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75124224-6F73-DD07-A8C1-C6D1AFD186D9" name="mantenimiento">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>65506A4C-0E96-50C6-EAC7-ADF1FDEEA857</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="area_trabajo" id="45122682-C128-76EF-D0DE-FEDC4FB8B30B">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>C1F13DBC-C39C-7FCE-0613-373166BD220C</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad" id="D088EA66-5F1D-E876-684D-5F308A592E5B">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>4A5233FA-A390-8FD4-C456-FBFC4A6262A1</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personal_estacion_id_personal" id="402FE6A5-9DE8-2AC5-E17E-3AAC29106EB6">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>768E4979-6BB9-88BB-F8EA-EFEF416D3E6E</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEC4E749-EACE-22DB-8DA3-F9C0C2B2F874" referredColumn="CF82499D-E9C7-B186-FED7-E40226F78BCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CDE9D54-D7C7-4FAE-590A-0EF59CB55C7B" name="mantenimiento_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>7796EB70-3C87-C284-26C3-C8F60BDCAE5D</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402FE6A5-9DE8-2AC5-E17E-3AAC29106EB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="341F9734-EAED-3193-E478-F122DF15BFE9" name="mantenimiento_personal_estacion_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>CD0E182C-E00A-BBA0-3DA9-131702EE5B99</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402FE6A5-9DE8-2AC5-E17E-3AAC29106EB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

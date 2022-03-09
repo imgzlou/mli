@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C46B3897-8140-0656-9EB3-75E8F466BA9E" name="pista">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>3FD95F55-C34F-9E7D-DB64-F057EE5FFA55</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pista" id="AFA279E5-0A8E-46BB-22EC-ABDABDEEF8A0">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>0400B853-3974-E7BE-F767-07A10B766B2D</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_pista" id="B58FBAD8-AB57-2C1A-84B1-A5B34C9F68DF">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>7C981033-C7AE-2853-1EC5-2A9F0FD7FFB4</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_pista" id="C384FF99-EE8B-6854-BC08-F4A5D4B46A14">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>92C850E7-7E73-1D20-FAD5-5A11CDEDF974</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud" id="D8CA3CCA-DB17-B94F-6C08-0E43FCD63205">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>B022E491-414C-FB36-245E-66D2E89EA855</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dificultad" id="AD3EE6FA-009A-BBFE-9374-42CE1FC2A8F4">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>CC2F50AB-E74F-DB13-2ECF-381E4555ADC7</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zona" id="5A7607DF-3C76-F54B-0B85-E7E2C0A3A54E">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>1392E105-A9CF-6909-D749-9FEF2F2E059F</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mapa_pistas" id="BD6FCFA7-3A89-E439-35E8-D838214086A4">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>2E59050C-A8C2-F7DA-E9BC-DB53C1EDB162</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estacion_id_estacion" id="5426D7E8-A902-24D0-50B0-DCC649209DE2">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>730F6713-F6B6-E01A-E452-FB6140D3EEB8</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6ED3C1-4379-A6EB-6EEC-206AEEDA524D" referredColumn="F43C6282-2161-B482-3615-5FB89B3B0253"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10EF76F5-3FB0-FF08-B7CA-B1EA14CFB33B" name="pista_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>AEA95AF9-8006-BB3E-AB79-9418564FF435</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA279E5-0A8E-46BB-22EC-ABDABDEEF8A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A22A9F7-3FF0-E5F1-7048-014AC9AB5CF2" name="pista_estacion_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>BB48FC40-57CA-40D7-2CC4-7B5F168D501F</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5426D7E8-A902-24D0-50B0-DCC649209DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

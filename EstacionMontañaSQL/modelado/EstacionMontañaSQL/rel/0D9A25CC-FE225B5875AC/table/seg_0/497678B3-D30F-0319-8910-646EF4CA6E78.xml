@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="497678B3-D30F-0319-8910-646EF4CA6E78" name="alquiler">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>5FE77AF3-1A9B-9C2B-173C-007CD021635D</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alquiler" id="51DAF90F-6ED5-40AF-D45B-2B83C53944B4">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>5BDA3A06-15D2-2CB7-B91C-43647E0F3360</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_recogida" id="31247CA7-3817-B406-EFDD-2F66E8F64986">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>FBA5F0AA-4CD4-427A-BB8D-CE30C62F3854</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_entrega" id="8084373A-5918-7AA4-2873-CD6265232149">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>D0393977-EE81-D232-1F3A-5154D7E4E23A</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datos_cliente_dni_cliente" id="9877F15D-64A6-4AE4-F998-B3390508A092">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>051A2031-4B3B-F861-BCAE-8655D6768128</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA038102-A496-6DF9-0D37-3F8837DBD849" referredColumn="4A220488-21F1-E333-499B-39A1F5196425"/>
+</associations>
+</Column>
+<Column name="material_id_material" id="C23F2F3E-14D9-09A3-38B0-CA4F3EECD364">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>B4F57BC0-1925-F947-D2BF-91B6183066E0</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2522B59-4299-05BE-FE15-7BC89C757D7B" referredColumn="D5632B2A-322D-47FA-0537-24AF7075CAFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8A737AB-C5C2-73C2-E592-AB4C8372E108" name="alquiler_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>15D16DD9-994D-7063-5FC3-C376B9293764</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51DAF90F-6ED5-40AF-D45B-2B83C53944B4"/>
+<colUsage columnID="C23F2F3E-14D9-09A3-38B0-CA4F3EECD364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D504516-F869-4525-BC7E-A056A53AD8DB" name="alquiler_datos_cliente_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>F5CCFC3F-3307-D98B-23A3-7FE740ACA665</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9877F15D-64A6-4AE4-F998-B3390508A092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1505FF64-A84F-32FA-C6E8-C31B7D8F6FC2" name="alquiler_material_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>7C0FC887-4977-AA8C-A7A5-F333B3022857</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C23F2F3E-14D9-09A3-38B0-CA4F3EECD364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

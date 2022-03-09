@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2522B59-4299-05BE-FE15-7BC89C757D7B" containerWithKeyObject="497678B3-D30F-0319-8910-646EF4CA6E78" localFKIndex="1505FF64-A84F-32FA-C6E8-C31B7D8F6FC2" name="alquiler_material_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>7C0FC887-4977-AA8C-A7A5-F333B3022857</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<referredTableLongName>material</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6223749-0B0A-E334-5B62-D5AE227B6449</referredTableID>
+<keyObject>BFA32281-B735-7506-E6A5-8A33C0E833B7</keyObject>
+<referredKeyID>BFA32281-B735-7506-E6A5-8A33C0E833B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_material</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

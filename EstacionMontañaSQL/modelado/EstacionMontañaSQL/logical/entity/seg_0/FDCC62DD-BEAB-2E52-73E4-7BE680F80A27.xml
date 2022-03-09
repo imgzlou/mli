@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDCC62DD-BEAB-2E52-73E4-7BE680F80A27" name="taquilla">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:41:12 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_taquilla" id="7BEA1F95-2E4E-6E5E-A8B2-1D9441F76F43">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:41:16 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario_atencion" id="84669195-82F4-20AD-49AE-629269C5AE86">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:41:37 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_personal" id="8FD39F06-9224-AF82-AAAE-DD7CB0EBDA40">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:53:54 UTC</createdTime>
+<generatorID>66E34875-1A74-5762-8D0B-3ECA3076AEC6</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<referedAttribute>7EE9A4B1-0422-940C-5806-4CBBF62E1724</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD373A00-7826-ACB3-A3F5-32819F575DCB" name="taquilla PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:41:35 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BEA1F95-2E4E-6E5E-A8B2-1D9441F76F43</attributeRef>
+<attributeRef>8FD39F06-9224-AF82-AAAE-DD7CB0EBDA40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

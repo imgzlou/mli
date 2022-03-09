@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91DA1E80-A450-FAAD-FFDE-801DB2963DDB" name="factura">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>04737444-155F-85FD-CD17-562EC0DC6E18</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_factura" id="22BF19E8-D2CF-474F-CBF1-33D96AC791C6">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>6DAEE117-47BA-EE61-D2F3-D5DAAFD86F0A</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="5AD40CED-1096-3F18-E950-6F1A9A7E08FB">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>76B47C4A-487A-28E8-6FAF-3AA610F6A200</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penalizacion" id="5C7D1113-EC39-B5EE-EF7D-04BD72C73B61">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>B17004D9-BA02-8748-F4CC-8977EC716AAC</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_motivo_penalizacion" id="685F3959-30F2-5EED-6A54-EF8FD6599EB8">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>F147E9C9-BAB6-838D-6AC2-CFCF77FAE4E1</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo_adicional" id="F9985ED9-452B-1B04-5447-B902BCF8A55F">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>962595A9-656A-E63C-AE8D-0D3022215E6E</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alquiler_id_alquiler" id="197DDEE2-B417-AD6B-B998-1A4ABDBAF7FF">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>C49AC171-C7F2-70AB-1071-FB6F3D5572EE</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67FB6495-5596-0080-749F-8E9346B53CC8" referredColumn="51DAF90F-6ED5-40AF-D45B-2B83C53944B4"/>
+</associations>
+</Column>
+<Column name="alquiler_material_id_material" id="F10FCC92-411C-9374-ED91-E30305A7EFBA">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>F02DE012-9061-5B55-B7B2-9E7213A8A9C3</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67FB6495-5596-0080-749F-8E9346B53CC8" referredColumn="C23F2F3E-14D9-09A3-38B0-CA4F3EECD364"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBB35646-58B1-B6BF-D292-FEB4C2D4FD9C" name="factura_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>1B11A67F-A4DA-FDE2-D076-526492A26E34</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22BF19E8-D2CF-474F-CBF1-33D96AC791C6"/>
+<colUsage columnID="197DDEE2-B417-AD6B-B998-1A4ABDBAF7FF"/>
+<colUsage columnID="F10FCC92-411C-9374-ED91-E30305A7EFBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="891D6276-D949-7CEF-5870-F6648F15EC16" name="factura_alquiler_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>140FDF73-48D8-BE57-B208-3DD91753D1C7</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="197DDEE2-B417-AD6B-B998-1A4ABDBAF7FF"/>
+<colUsage columnID="F10FCC92-411C-9374-ED91-E30305A7EFBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

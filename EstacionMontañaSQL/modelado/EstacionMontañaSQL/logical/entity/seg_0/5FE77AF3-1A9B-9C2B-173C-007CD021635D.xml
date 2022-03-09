@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FE77AF3-1A9B-9C2B-173C-007CD021635D" name="alquiler">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:49:45 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alquiler" id="5BDA3A06-15D2-2CB7-B91C-43647E0F3360">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:49:50 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_recogida" id="FBA5F0AA-4CD4-427A-BB8D-CE30C62F3854">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:50:10 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_entrega" id="D0393977-EE81-D232-1F3A-5154D7E4E23A">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:50:35 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni_cliente" id="051A2031-4B3B-F861-BCAE-8655D6768128">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:54:47 UTC</createdTime>
+<generatorID>F5CCFC3F-3307-D98B-23A3-7FE740ACA665</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<referedAttribute>5968B291-610F-97CA-410D-BB026EBB93BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_material" id="B4F57BC0-1925-F947-D2BF-91B6183066E0">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:55:03 UTC</createdTime>
+<generatorID>7C0FC887-4977-AA8C-A7A5-F333B3022857</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<referedAttribute>78893DB7-02BC-6980-DC1A-FA6D6CBDF8CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15D16DD9-994D-7063-5FC3-C376B9293764" name="alquiler PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:49:57 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BDA3A06-15D2-2CB7-B91C-43647E0F3360</attributeRef>
+<attributeRef>B4F57BC0-1925-F947-D2BF-91B6183066E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

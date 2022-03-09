@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EstacionMontañaSQL" id="049EE6E6-DCC5-87CD-5EC1-9C3954F899EB" version="3.5">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:31:41 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQLbase</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>049EE6E6-DCC5-87CD-5EC1-9C3954F899EB</designId>
+</OSDM_Design>

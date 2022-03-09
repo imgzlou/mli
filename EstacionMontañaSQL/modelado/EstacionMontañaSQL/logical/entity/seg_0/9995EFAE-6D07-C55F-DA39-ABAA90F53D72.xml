@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9995EFAE-6D07-C55F-DA39-ABAA90F53D72" name="gerente">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:53:06 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_personal" id="CA568AE2-5624-4215-9598-4E70F5895ABB">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:54:12 UTC</createdTime>
+<generatorID>9BD69ECC-7BB4-DF90-D43C-F4865D612915</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<referedAttribute>7EE9A4B1-0422-940C-5806-4CBBF62E1724</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="006BEAE0-6247-278D-0377-074A0A0F278A" name="gerente PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:54:12 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA568AE2-5624-4215-9598-4E70F5895ABB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

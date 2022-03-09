@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04737444-155F-85FD-CD17-562EC0DC6E18" name="factura">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:51:27 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_factura" id="6DAEE117-47BA-EE61-D2F3-D5DAAFD86F0A">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:51:32 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="76B47C4A-487A-28E8-6FAF-3AA610F6A200">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:51:41 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penalizacion" id="B17004D9-BA02-8748-F4CC-8977EC716AAC">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:51:51 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_motivo_penalizacion" id="F147E9C9-BAB6-838D-6AC2-CFCF77FAE4E1">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:52:13 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_adicional" id="962595A9-656A-E63C-AE8D-0D3022215E6E">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:52:31 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_alquiler" id="C49AC171-C7F2-70AB-1071-FB6F3D5572EE">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:54:38 UTC</createdTime>
+<generatorID>140FDF73-48D8-BE57-B208-3DD91753D1C7</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<referedAttribute>5BDA3A06-15D2-2CB7-B91C-43647E0F3360</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_material" id="F02DE012-9061-5B55-B7B2-9E7213A8A9C3">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:55:03 UTC</createdTime>
+<generatorID>140FDF73-48D8-BE57-B208-3DD91753D1C7</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<referedAttribute>B4F57BC0-1925-F947-D2BF-91B6183066E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B11A67F-A4DA-FDE2-D076-526492A26E34" name="factura PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:51:49 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DAEE117-47BA-EE61-D2F3-D5DAAFD86F0A</attributeRef>
+<attributeRef>C49AC171-C7F2-70AB-1071-FB6F3D5572EE</attributeRef>
+<attributeRef>F02DE012-9061-5B55-B7B2-9E7213A8A9C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

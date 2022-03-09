@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D35DD432-C3B2-74B3-486E-B76850CBB41C" name="tienda">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>E9784A1E-A2EC-2B65-8C37-D6BD4905E838</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="personal_estacion_id_personal" id="F7DFE534-7AED-4644-8811-509C7AEB1082">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>37CF7F5A-8EFC-0106-6A1F-C36B672788AF</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D6FADB1-A764-E923-DE62-27F668BAFF98" referredColumn="CF82499D-E9C7-B186-FED7-E40226F78BCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79835399-2248-3973-BB7A-99EAD2569008" name="tienda_PK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>E6E6F5DD-A026-0C66-D557-EA2CABD1AC7B</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7DFE534-7AED-4644-8811-509C7AEB1082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4572D113-9156-60DF-8226-D13A9AA4A010" name="tienda_personal_estacion_FK">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-28 19:30:18 UTC</createdTime>
+<generatorID>FB3D9B61-698D-5EE8-C7E8-BA8F83628950</generatorID>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7DFE534-7AED-4644-8811-509C7AEB1082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

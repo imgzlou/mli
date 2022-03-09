@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="391447D5-CCC8-ACCF-28FC-C50FEE59204F">
+<createdBy>mli</createdBy>
+<createdTime>2022-02-22 11:53:22 UTC</createdTime>
+<ownerDesignName>EstacionMontañaSQL</ownerDesignName>
+<engineerTo>
+<item key="0D9A25CC-3F6F-945C-D70C-FE225B5875AC" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>CB7091EB-FF96-B29A-B27C-D49C1D9E4477</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1654FE70-659B-3733-AC6C-70E9D42CEE52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC5FDF9A-0608-B243-F681-FAE244109D68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
